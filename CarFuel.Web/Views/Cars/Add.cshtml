@@ -1,0 +1,33 @@
+﻿@using CarFuel.Models;
+@model Car
+
+<h2></h2>
+
+<form class="form-horizontal" method="post">
+  <fieldset>
+
+    <!-- Form Name -->
+    <legend>Add Car</legend>
+
+    <!-- Text input-->
+    <div class="form-group">
+      <label class="col-md-4 control-label" for="textinput">Car's Name</label>
+      <div class="col-md-4">
+        @Html.TextBoxFor(m => m.Name, new { @class = "form-control input-md" })
+
+        <span class="help-block">Insert your car's name.</span>
+      </div>
+    </div>
+
+    <!-- Button -->
+    <div class="form-group">
+      <label class="col-md-4 control-label" for="singlebutton"></label>
+      <div class="col-md-4">
+        <button type="submit" id="singlebutton" name="singlebutton" 
+                class="btn btn-primary">Add</button>
+      </div>
+    </div>
+
+  </fieldset>
+</form>
+

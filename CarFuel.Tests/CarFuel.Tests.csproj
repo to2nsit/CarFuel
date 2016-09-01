@@ -90,6 +90,10 @@
       <Project>{2B8689F0-E5FB-4B42-A5D8-0FF665A4C1C3}</Project>
       <Name>CarFuel.Services</Name>
     </ProjectReference>
+    <ProjectReference Include="..\CarFuel.Utilities\CarFuel.Utilities.csproj">
+      <Project>{64c22c7b-7201-4692-bb95-3b7208b59c41}</Project>
+      <Name>CarFuel.Utilities</Name>
+    </ProjectReference>
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />

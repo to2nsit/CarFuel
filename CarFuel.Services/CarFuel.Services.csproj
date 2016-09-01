@@ -57,6 +57,10 @@
       <Project>{b82d5845-a6cd-4570-aa12-39123c054e03}</Project>
       <Name>CarFuel.Models</Name>
     </ProjectReference>
+    <ProjectReference Include="..\CarFuel.Utilities\CarFuel.Utilities.csproj">
+      <Project>{64c22c7b-7201-4692-bb95-3b7208b59c41}</Project>
+      <Name>CarFuel.Utilities</Name>
+    </ProjectReference>
   </ItemGroup>
   <ItemGroup />
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />

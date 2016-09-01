@@ -45,6 +45,7 @@ namespace CarFuel.Models {
             }
         }
 
-        public DateTime FillUpDate { get; private set; }
+        //[Column(TypeName = "datetime2")]
+        public DateTime FillUpDate { get; set; }
     }
 }

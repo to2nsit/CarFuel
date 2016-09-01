@@ -20,6 +20,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CarFuel.DataAccess", "CarFu
 EndProject
 Project("{F2A71F9B-5D33-465A-A702-920D77279786}") = "CarFuel.UITests", "CarFuel.UITests\CarFuel.UITests.fsproj", "{B4350C27-0457-43C3-A191-BC5A97D3732F}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CarFuel.Utilities", "CarFuel.Utilities\CarFuel.Utilities.csproj", "{64C22C7B-7201-4692-BB95-3B7208B59C41}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -50,6 +52,10 @@ Global
 		{B4350C27-0457-43C3-A191-BC5A97D3732F}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{B4350C27-0457-43C3-A191-BC5A97D3732F}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{B4350C27-0457-43C3-A191-BC5A97D3732F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{64C22C7B-7201-4692-BB95-3B7208B59C41}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{64C22C7B-7201-4692-BB95-3B7208B59C41}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{64C22C7B-7201-4692-BB95-3B7208B59C41}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{64C22C7B-7201-4692-BB95-3B7208B59C41}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
